@@ -1,6 +1,3 @@
-/* ---------------------------------------------------
-   SCROLL REVEAL
---------------------------------------------------- */
 function reveal() {
   const reveals = document.querySelectorAll(".reveal");
 
@@ -15,9 +12,6 @@ function reveal() {
   });
 }
 
-/* ---------------------------------------------------
-   NAV ACTIVE HIGHLIGHT
---------------------------------------------------- */
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll("nav a");
 
@@ -39,9 +33,6 @@ function updateActiveNav() {
   });
 }
 
-/* ---------------------------------------------------
-   MOBILE NAV MENU TOGGLE
---------------------------------------------------- */
 const hamburger = document.getElementById("hamburger");
 const navMenu = document.getElementById("nav-menu");
 
@@ -49,9 +40,7 @@ hamburger.addEventListener("click", () => {
   navMenu.classList.toggle("active");
 });
 
-/* ---------------------------------------------------
-   ROLE TEXT SWITCHING
---------------------------------------------------- */
+
 const roleText = document.getElementById("role-text");
 const roles = ["Student", "Software Engineer"];
 let index = 0;
@@ -68,9 +57,6 @@ function changeRole() {
 
 setInterval(changeRole, 3000);
 
-/* ---------------------------------------------------
-   INIT ON LOAD + SCROLL
---------------------------------------------------- */
 window.addEventListener("scroll", () => {
   reveal();
   updateActiveNav();
@@ -78,3 +64,4 @@ window.addEventListener("scroll", () => {
 
 reveal();
 updateActiveNav();
+
