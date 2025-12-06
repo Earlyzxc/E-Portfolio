@@ -1,6 +1,3 @@
-/* ------------------------------------------------------------------
-   GLOBAL RESET & BASE
------------------------------------------------------------------- */
 * {
   margin: 0;
   padding: 0;
@@ -17,9 +14,7 @@ body {
   color: #FFFFFF;
 }
 
-/* ------------------------------------------------------------------
-   HEADER & NAVIGATION
------------------------------------------------------------------- */
+
 header {
   width: 100%;
   padding: 25px 10%;
@@ -53,7 +48,6 @@ nav a.active {
   padding-bottom: 4px;
 }
 
-/* Hamburger */
 .hamburger {
   display: none;
   font-size: 28px;
@@ -65,9 +59,7 @@ nav a.active {
   transition: max-height 0.3s ease;
 }
 
-/* ------------------------------------------------------------------
-   HERO SECTION
------------------------------------------------------------------- */
+
 .hero {
   display: flex;
   justify-content: center;
@@ -111,7 +103,6 @@ nav a.active {
   box-shadow: 0 0 40px #6CA8FF;
 }
 
-/* Socials */
 .socials {
   display: flex;
   gap: 20px;
@@ -128,7 +119,6 @@ nav a.active {
   color: #6CA8FF;
 }
 
-/* Button */
 .btn {
   display: inline-block;
   padding: 12px 28px;
@@ -145,9 +135,7 @@ nav a.active {
   background: #6CA8FF;
 }
 
-/* ------------------------------------------------------------------
-   SECTIONS
------------------------------------------------------------------- */
+
 .section {
   padding: 120px 10%;
   text-align: center;
@@ -161,7 +149,6 @@ nav a.active {
   letter-spacing: 2px;
 }
 
-/* Scroll reveal animation */
 .reveal {
   opacity: 0;
   transform: translateY(40px);
@@ -173,9 +160,7 @@ nav a.active {
   transform: translateY(0);
 }
 
-/* ------------------------------------------------------------------
-   SERVICES SECTION
------------------------------------------------------------------- */
+
 .cards {
   display: flex;
   justify-content: center;
@@ -204,9 +189,6 @@ nav a.active {
   color: #3A82F7;
 }
 
-/* ------------------------------------------------------------------
-   SKILLS SECTION
------------------------------------------------------------------- */
 .skills-list {
   max-width: 600px;
   margin: auto;
@@ -232,9 +214,6 @@ nav a.active {
   background: #3A82F7;
 }
 
-/* ------------------------------------------------------------------
-   TIMELINE (Education)
------------------------------------------------------------------- */
 .timeline {
   max-width: 700px;
   margin: auto;
@@ -256,9 +235,6 @@ nav a.active {
   color: #bbbbbb;
 }
 
-/* ------------------------------------------------------------------
-   PROJECTS / MY WORKS
------------------------------------------------------------------- */
 .projects {
   display: flex;
   justify-content: center;
@@ -276,8 +252,6 @@ nav a.active {
   text-align: center;
   transition: 0.3s;
   overflow-wrap: break-word;
-
-  /* Makes all cards the same height & aligns button */
   height: 420px;
   display: flex;
   flex-direction: column;
@@ -301,7 +275,7 @@ nav a.active {
 .project-btn {
   display: inline-block;
   padding: 10px 20px;
-  margin: 15px auto 0;   /* FIX: Centers the button */
+  margin: 15px auto 0;   
   background: #3A82F7;
   color: white;
   border-radius: 10px;
@@ -313,9 +287,6 @@ nav a.active {
   background: #6CA8FF;
 }
 
-/* ------------------------------------------------------------------
-   CONTACT SECTION
------------------------------------------------------------------- */
 .contact-container {
   max-width: 900px;
   margin: auto;
@@ -355,9 +326,6 @@ nav a.active {
   margin: 20px auto 0;
 }
 
-/* ------------------------------------------------------------------
-   MOBILE RESPONSIVE
------------------------------------------------------------------- */
 @media (max-width: 768px) {
 
   header {
@@ -424,9 +392,6 @@ nav a.active {
   }
 }
 
-/* ------------------------------------------------------------------
-   ROLE TEXT FADE ANIMATION
------------------------------------------------------------------- */
 #role-text {
   transition: opacity 0.5s ease;
 }
@@ -434,3 +399,4 @@ nav a.active {
 .fade {
   opacity: 0;
 }
+
