@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <h2>Earl</h2>
+
+    <div class="hamburger" id="hamburger">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <nav id="nav-menu">
+      <a href="#home" class="active">Home</a>
+      <a href="#services">Services</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#works">My Works</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero reveal">
+    <div class="hero-image">
+      <img src="img/profileimg.jpg" alt="Profile Image" />
+    </div>
+
+    <div class="hero-text">
+      <h1>Hi, It's <span>Earl</span></h1>
+      <h2>I'm a <span id="role-text">Student</span></h2>
+      <p>
+        Hi, I'm Earl. I'm currently studying BSIT at Colegio de Montalban and pursuing my goal of becoming a Software Engineer. I’m passionate about tech, problem solving, and creating random projects. When I’m not coding, I enjoy playing online games and listening to music.
+      </p>
+
+      <div class="socials">
+        <a href="https://www.instagram.com/dnd_erlzy?igsh=MXd4em9xNjZpa2t0"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/Earlyzxc"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.facebook.com/share/14UEGCcJHeH/"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+
+      <a class="btn" href="#contact">Hire Me</a>
+    </div>
+  </section>
+
+  <section id="services" class="section reveal">
+    <h2 class="section-title">Services</h2>
+
+    <div class="cards">
+      <div class="card">
+        <i class="fa-solid fa-laptop-code"></i>
+        <h3>Web Development</h3>
+        <p>Portfolio sites, landing pages, and custom designs.</p>
+      </div>
+
+      <div class="card">
+        <i class="fa-solid fa-pen-nib"></i>
+        <h3>Lua Scripting/Roblox Game</h3>
+        <p>Lua Script, Roblox Game Development</p>
+      </div>
+
+      <div class="card">
+        <i class="fa-solid fa-mobile"></i>
+        <h3>Responsive Design</h3>
+        <p>Optimized layouts for mobile, tablet, and desktop.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section reveal">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-list">
+      <p>HTML</p>
+      <div class="bar"><span style="width: 90%;"></span></div>
+
+      <p>CSS</p>
+      <div class="bar"><span style="width: 80%;"></span></div>
+
+      <p>JavaScript</p>
+      <div class="bar"><span style="width: 60%;"></span></div>
+
+      <p>PHP</p>
+      <div class="bar"><span style="width: 45%;"></span></div>
+
+      <p>Lua</p>
+      <div class="bar"><span style="width: 80%;"></span></div>
+    </div>
+  </section>
+
+  <section id="education" class="section reveal">
+    <h2 class="section-title">Education</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>SouthVille 8-C National High School</h3>
+        <span>2018 - 2022</span>
+        <p>General Academic Curriculum</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Valley High Academy</h3>
+        <span>2022 - 2024</span>
+        <p>TVL - Information & Communications Technology (ICT)</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Colegio De Montalban</h3>
+        <span>2024 - Present</span>
+        <p>Bachelor of Science in Information Technology (BSIT)</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="works" class="section reveal">
+    <h2 class="section-title">My Works</h2>
+
+    <div class="projects">
+
+      <div class="project-card">
+        <img src="img/Project1.jpg" alt="Dynamic Quiz App">
+        <h3>Dynamic Quiz App</h3>
+        <p>A Dynamic Quiz App with Dark Mode Function Using JavaScript</p>
+        <a href="https://earlyzxc.github.io/Dynamic-Quiz-App/" target="_blank" class="project-btn">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <img src="img/Project2.jpg" alt="Personal Information Display">
+        <h3>Personal Information Display</h3>
+        <p>Simple form that displays personal information</p>
+        <a href="https://personalinformationdisplay.infinityfree.me/index.php" target="_blank" class="project-btn">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <img src="img/Project3.jpg" alt="For Hire Availability">
+        <h3>For Hire Employees Availability</h3>
+        <p>Available employees system made with Team PaloBog</p>
+        <a href="https://earlyzxc.github.io/For-hire-/" target="_blank" class="project-btn">View Project</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="section reveal">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact-container">
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
