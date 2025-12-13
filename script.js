@@ -33,13 +33,13 @@ function updateActiveNav() {
   });
 }
 
+
 const hamburger = document.getElementById("hamburger");
 const navMenu = document.getElementById("nav-menu");
 
 hamburger.addEventListener("click", () => {
   navMenu.classList.toggle("active");
 });
-
 
 const roleText = document.getElementById("role-text");
 const roles = ["Student", "Software Engineer"];
@@ -57,6 +57,7 @@ function changeRole() {
 
 setInterval(changeRole, 3000);
 
+
 window.addEventListener("scroll", () => {
   reveal();
   updateActiveNav();
@@ -64,4 +65,3 @@ window.addEventListener("scroll", () => {
 
 reveal();
 updateActiveNav();
-
